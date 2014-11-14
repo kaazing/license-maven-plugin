@@ -13,7 +13,14 @@
     <version>1.0.0.0-SNAPSHOT</version>
 
     <name>Kaazing License Maven Plugin</name>
-    <url>http://maven.apache.org</url>
+ 
+    <url>git@github.com:kaazing/maven-license-plugin.git</url>
+    <scm>
+        <connection>scm:git:${project.url}</connection>
+        <developerConnection>scm:git:${project.url}</developerConnection>
+        <url>${project.url}</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
