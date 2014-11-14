@@ -27,7 +27,7 @@ Plugin to generate Notice on a project
     private String notice;
 ```
 
-Hits and modified code notices can be added as shown below
+Hints and modified code notices can be added as shown below
 ```
             <plugin>
                 <groupId>org.kaazing</groupId>
