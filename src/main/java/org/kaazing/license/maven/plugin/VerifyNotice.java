@@ -64,7 +64,7 @@ public class VerifyNotice extends AbstractLicenseMojo {
     private java.util.List remoteArtifactRepositories;
 
     /**
-     * @parameter default-value="target/NOTICE.txt"
+     * @parameter default-value="${project.build.directory}/NOTICE.txt"
      */
     private String noticeOutput;
 
