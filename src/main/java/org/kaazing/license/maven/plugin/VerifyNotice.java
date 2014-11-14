@@ -79,7 +79,7 @@ public class VerifyNotice extends AbstractLicenseMojo {
     private boolean matchWithExisting;
 
     /**
-     * @parameter default-value="NOTICE.txt"
+     * @parameter default-value="${basedir}/NOTICE.txt"
      */
     private String notice;
 
