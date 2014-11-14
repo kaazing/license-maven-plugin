@@ -137,7 +137,8 @@ public class VerifyNotice extends AbstractLicenseMojo {
                         sb.append("\tLicense is not included in maven artifact, look at homepage for license\t");
                         sb.append("\n");
                     } else {
-                        throw new MojoFailureException("Artifact " + dependencyProj.getArtifactId()
+                        throw new MojoFailureException("Artifact " + dependencyProj.getArtifactId() + " with name \""
+                                + dependencyProj.getName() + "\""
                                 + " does not have a license in pom, include it in plugin configuration");
                     }
                 }
