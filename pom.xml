@@ -14,7 +14,7 @@
 
     <name>Kaazing License Maven Plugin</name>
  
-    <url>git@github.com:kaazing/maven-license-plugin.git</url>
+    <url>git@github.com:kaazing/license-maven-plugin.git</url>
     <scm>
         <connection>scm:git:${project.url}</connection>
         <developerConnection>scm:git:${project.url}</developerConnection>
