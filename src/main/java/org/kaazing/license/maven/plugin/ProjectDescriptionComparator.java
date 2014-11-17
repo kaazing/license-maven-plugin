@@ -27,8 +27,10 @@ public class ProjectDescriptionComparator implements Comparator<ProjectDescripti
 
     @Override
     public int compare(ProjectDescription o1, ProjectDescription o2) {
-        String o1String = o1.getProjectName() + o1.getLicenseName() + o1.getLicenseUrl() + o1.getHomePage() + o1.getVersion();
-        String o2String = o2.getProjectName() + o2.getLicenseName() + o2.getLicenseUrl() + o2.getHomePage() + o2.getVersion();
+        String o1String = o1.getProjectName() + o1.getLicenseName() + o1.getLicenseUrl() + o1.getHomePage()
+                + o1.getVersion();
+        String o2String = o2.getProjectName() + o2.getLicenseName() + o2.getLicenseUrl() + o2.getHomePage()
+                + o2.getVersion();
         return o2String.compareTo(o1String);
     }
 

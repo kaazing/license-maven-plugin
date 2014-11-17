@@ -1,0 +1,75 @@
+This product depends on Backport of JSR 166 3.1
+
+	License:	http://creativecommons.org/licenses/publicdomain (Public Domain)
+	Homepage:	http://backport-jsr166.sourceforge.net/
+
+This product depends on classworlds 1.1-alpha-2
+
+	License:	http://classworlds.codehaus.org/license.html (Classworlds License)
+	Homepage:	http://classworlds.codehaus.org/
+
+This product depends on Maven Artifact Manager 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-artifact-manager
+
+This product depends on Maven Artifact 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-artifact
+
+This product depends on Maven Model 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-model
+
+This product depends on Maven Plugin API 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-plugin-api
+
+This product depends on Maven Plugin Registry Model 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-plugin-registry
+
+This product depends on Maven Profile Model 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-profile
+
+This product depends on Maven Project Builder 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-project
+
+This product depends on Maven Repository Metadata Model 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-repository-metadata
+
+This product depends on Maven Local Settings Model 2.2
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/maven-settings
+
+This product depends on Default Plexus Container 1.0-alpha-9-stable-1
+
+	License:	http://plexus.codehaus.org/license.html (Plexus License)
+	Homepage:	http://plexus.codehaus.org
+
+This product depends on Plexus Interpolation API 1.11
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://plexus.codehaus.org/plexus-components/plexus-interpolation
+
+This product depends on Plexus Common Utilities 1.5
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://plexus.codehaus.org/plexus-utils
+
+This product depends on Maven Wagon API 1.0-beta-6
+
+	License:	http://www.apache.org/licenses/LICENSE-2.0.txt (The Apache Software License, Version 2.0)
+	Homepage:	http://maven.apache.org/wagon/wagon-provider-api
+
