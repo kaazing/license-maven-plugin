@@ -38,12 +38,6 @@ public abstract class AbstractLicenseMojo extends AbstractMojo {
      */
     private MavenProject project;
 
-    // Collection<? extends Artifact> getTestDependencies(MavenProject project) {
-    // @SuppressWarnings("unchecked")
-    // List<Artifact> testDependencies = project.get;
-    // return testDependencies;
-    // }
-
     Set<Artifact> getDependencyArtifacts(MavenProject project) {
         @SuppressWarnings("unchecked") Set<Artifact> artifacts = project.getArtifacts();
         return artifacts;
