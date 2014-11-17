@@ -21,6 +21,12 @@
 
 package org.kaazing.license.maven.plugin;
 
+/**
+ * Projects that can be added as needed to the plugin configuration,
+ * This class contains everything needed for writing to the NOTICE
+ * file
+ *
+ */
 public class ProjectDescription {
 
     /**
