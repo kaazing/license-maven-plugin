@@ -8,6 +8,7 @@
     <version>1.0.0.9-SNAPSHOT</version>
 
     <name>Kaazing License Maven Plugin</name>
+    <description>This project generates a notice file that contains all the licenses from the dependencies</description>
 
     <licenses>
         <license>
