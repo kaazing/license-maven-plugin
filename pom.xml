@@ -9,6 +9,26 @@
 
     <name>Kaazing License Maven Plugin</name>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Kaazing Corporation</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Kaazing Corporation</name>
+            <url>https://github.com/kaazing</url>
+            <organization>Kaazing Corporation</organization>
+            <organizationUrl>http://kaazing.org</organizationUrl>
+        </developer>
+    </developers>
+
     <url>git@github.com:kaazing/license-maven-plugin.git</url>
     <scm>
         <connection>scm:git:${project.url}</connection>
