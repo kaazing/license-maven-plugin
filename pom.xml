@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.kaazing</groupId>
         <artifactId>community</artifactId>
-        <version>1.0</version>
+        <version>1.2</version>
     </parent>
 
     <artifactId>license-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.0.0.17</version>
+    <version>1.0.0.18</version>
 
     <name>Kaazing License Maven Plugin</name>
     <description>This project generates a notice file that contains all the licenses from the dependencies</description>
@@ -37,25 +37,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>external.atlassian.jgitflow</groupId>
-                <artifactId>jgitflow-maven-plugin</artifactId>
-                <version>1.0-m4.3</version>
-                <configuration>
-                    <flowInitContext>
-                        <!-- see goals wiki page for configuration options -->
-                        <masterBranchName>master</masterBranchName>
-                        <developBranchName>develop</developBranchName>
-                        <featureBranchPrefix>feature-</featureBranchPrefix>
-                        <releaseBranchPrefix>release-</releaseBranchPrefix>
-                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                        <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
-                    </flowInitContext>
-                    <pullMaster>true</pullMaster>
-                    <pullDevelop>true</pullDevelop>
-                    <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -103,5 +84,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>
