@@ -4,7 +4,7 @@
     <groupId>org.kaazing</groupId>
     <artifactId>license-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.0.0.10</version>
+    <version>1.0.0.11</version>
 
     <name>Kaazing License Maven Plugin</name>
     <description>This project generates a notice file that contains all the licenses from the dependencies</description>
