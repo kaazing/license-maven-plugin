@@ -1,5 +1,10 @@
 # Kaazing maven.license.plugin
 
+[![Build Status][build-status-image]][build-status]
+
+[build-status-image]: https://travis-ci.org/kaazing/license-maven-plugin.svg?branch=develop
+[build-status]: https://travis-ci.org/kaazing/license-maven-plugin
+
 Plugin to generate Notice on a project 
 ```
     /**
